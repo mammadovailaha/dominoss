@@ -8,7 +8,7 @@ const Card = ({ image, label, desc, price }) => {
       <img
         src={image}
         alt={label}
-        className="w-full h-[180px] object-contain p-2"
+        className="w-full h-[180px] object-contain p-2 "
       />
       <div className="w-full px-4 py-3 gap-1 font-[Poppins]">
         <p className="text-[28px] text-[#003752] font-[700]">{label}</p>
