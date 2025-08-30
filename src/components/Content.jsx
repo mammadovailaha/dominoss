@@ -19,7 +19,7 @@ const Content = ({
   return (
     <>
       <div
-        className={`flex gap-[8px] flex-col font-[Bold] align-center justify-center  ${width}`}
+        className={`flex gap-[8px] flex-col font-[Bold] align-center justify-center ${width}`}
       >
         <h5 className={`font-[500] text-[40px] leading-[48px] ${h5class}`}>
           {t(h5)}

@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import LanguageSelector from "./Language";
 import Subheader from "./Subheader";
 import BasketDrop from "./BasketDrop";
-
+import { useNavigate } from "react-router-dom";
 const Header = () => {
   const { t } = useTranslation();
   const [scrollY, setScrollY] = useState(0);
@@ -17,6 +17,10 @@ const Header = () => {
   const isNormal = scrollY < 70;
   const isLogoMode = scrollY >= 70 && scrollY < 103;
   const isFixed = scrollY >= 103;
+ const navigate = useNavigate();
+ const handleScrollToLogin = () => {
+  navigate('/login');
+ };
 
   return (
     <div>
@@ -30,7 +34,9 @@ const Header = () => {
         </a>
         <div className="flex justify-center items-center">
           <LanguageSelector />
-          <div className="flex flex-col justify-center items-center cursor-pointer text-center p-[12px]">
+          <div
+          onClick={handleScrollToLogin}
+          className="flex flex-col justify-center items-center cursor-pointer text-center p-[12px]">
             <img
               className="w-[40px] h-[40px]"
               src="./img/login.png"

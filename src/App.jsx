@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./layouts/Layout";
 import Home from "./pages/Home";
-// import Login from "./pages/Login";
+import Login from "./pages/Login";
 // import Basket from "./pages/Basket";
 import Suggestions from "./pages/Suggestions";
 import Services from "./pages/Services";
@@ -35,8 +35,8 @@ function App() {
           {/* <Route path="/drinks" element={<Drink />}/> */}
           <Route path="/dips" element={<Dip />}/>
           <Route path="/desserts" element={<Dessert />}/>
-          {/* <Route path="/login" element={<Login />} />
-          <Route path="/basket" element={<Basket />} /> */}
+          <Route path="/login" element={<Login />} />
+          {/* <Route path="/basket" element={<Basket />} /> */}
         </Route>
       </Routes>
     </Router>
