@@ -10,12 +10,12 @@ const Tracking = () => {
           showBrush={false}
           h5="tracking.title"
           width="w-full sm:basis-1/2 sm:max-w-1/2 md:basis-1/2 md:max-w-1/2 lg:basis-1/2 lg:max-w-1/2 grow-0"
-          h5class="text-[#007EB0] text-left"
+          h5class="text-[#007EB0] text-left "
           left="tracking.subtitle"
           leftclass="text-[#DD2237] text-left"
           mainclass="text-left"
           main="tracking.description"
-          button="tracking.button"
+          button="tracking.button "
           svg={
             <svg
               className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
