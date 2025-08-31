@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 import Card from "../components/Card";
 const Chicken = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
 
   const images = [
     "/img/Kickers.png",
@@ -15,7 +15,7 @@ const Chicken = () => {
     "/img/fri.gif",
   ];
 const prices = [9.90, 4.90, 6.90, 9.90, 4.20, 5.90, 3.90, 4.90];
-  const bread = {
+  const chicken = {
     az: [
       {
         label: "Çiken Kikers",
@@ -120,7 +120,7 @@ const prices = [9.90, 4.90, 6.90, 9.90, 4.20, 5.90, 3.90, 4.90];
     ],
   };
 
-  const items = bread[i18n.language] || bread.az;
+  const items = chicken[i18n.language] || chicken.az;
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {

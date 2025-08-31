@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 const Privacy = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const imagebyLanguage = () => {
     switch (i18n.language) {
       case "az":

@@ -2,8 +2,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import "tailwindcss";
 
+@font-face{
+  font-family: "BebasNeue-Bold";
+  src: url("fonts/BebasNeue/BebasNeue-Bold.otf") format("opentype");
+}
+
+@font-face{
+  font-family: "BebasNeue-Book";
+  src: url("fonts/BebasNeue/BebasNeue-Book.otf") format("opentype");
+}
+
+@font-face{
+  font-family: "BebasNeue-Light";
+  src: url("fonts/BebasNeue/BebasNeue-Light.otf") format("opentype");
+}
+
+@font-face{
+  font-family: "BebasNeue-Thin";
+  src: url("fonts/BebasNeue/BebasNeue-Thin.otf") format("opentype");
+}
+
 body {
-  font-family: "Bebas Neue", "Open Sans", sans-serif !important;
+  font-family: "BebasNeue-Bold", sans-serif !important;
+  font-weight: 700;
 }
 
 @keyframes slide-in {
@@ -15,6 +36,11 @@ body {
     transform: translateX(0);
     opacity: 1;
   }
+}
+
+.basketdrop{
+  font-family: "BebasNeue-Bold", sans-serif !important;
+  font-weight: 700;
 }
 
 .slide-in {

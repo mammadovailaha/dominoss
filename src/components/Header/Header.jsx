@@ -44,18 +44,17 @@ const Header = () => {
             />
             <p className="text-[#0000008A] mt-[3px]">{t("Daxil ol")}</p>
           </div>
-          <BasketDrop />
+          <BasketDrop/>
         </div>
       </nav>
 
       <menu
-        className={`w-full bg-white shadow-md inset-shadow-sm ${
+        className={`w-full bg-white shadow-md inset-shadow-sm drop-shadow-xl ${
           isFixed ? "fixed top-0 left-0 z-50 transition duration-300" : ""
         }`}
       >
-        <div className="flex w-full justify-center items-center gap-[15px] relative">
+        <div className="flex w-full justify-center items-center gap-[15px] relative font-[Bold] text-bold">
           {isNormal && <Subheader />}
-
           {(isLogoMode || isFixed) && (
             <>
               <div className="flex justify-center items-center">

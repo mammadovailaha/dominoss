@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 
 const Offer = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
@@ -35,7 +35,7 @@ const Offer = () => {
       { src: "/img/LargeMenu.png", label: "1 Böyük Pizza + 1L içki 24.90 AZN" },
       {
         src: "/img/SuperOnline.png",
-        label: "2 Orta Pizza + 1Lt içki 27.90 AZN",
+        label: "2 Orta Pizza + 1L içki 27.90 AZN",
       },
       { src: "/img/19,19.png", label: "2 Böyük Pizza 38 AZN" },
       { src: "/img/44-azn.png", label: "4 Orta Pizza 44 AZN" },
@@ -64,7 +64,7 @@ const Offer = () => {
       },
       {
         src: "/img/SuperOnline-eng.png",
-        label: "2 Medium Pizzas + 1Lt Drink 27.90 AZN",
+        label: "2 Medium Pizzas + 1L Drink 27.90 AZN",
       },
       { src: "/img/19,19-en.png", label: "2 Large Pizzas for 38 AZN" },
       { src: "/img/44-azn-Eng.png", label: "4 Medium Pizzas for 44 AZN" },
@@ -113,9 +113,9 @@ const Offer = () => {
           className="flex flex-col items-center rounded-2xl shadow-lg inset-shadow-sm cursor-pointer overflow-hidden transition-transform duration-600 hover:scale-105"
         >
           <img src={item.src} alt={item.label} className="w-full" />
-          <div className="flex justify-between w-full px-2 py-3 gap-1 font-[700] text-[21px] font-[Poppins]">
-            <p>{item.label}</p>
-            <i className="fa-solid fa-heart text-[30px] text-gray-300"></i>
+          <div className="flex w-full justify-between px-2 py-3 font-[700] text-[21px]">
+            <p className="text-[22px]">{item.label}</p>
+            <i className="fa-solid fa-heart text-[30px] text-gray-300 ml-2"></i>
           </div>
         </div>
       ))}

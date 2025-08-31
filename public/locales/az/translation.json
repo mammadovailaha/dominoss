@@ -10,14 +10,14 @@
   "Təkliflərinizi bizimlə bölüşün!": "Təkliflərinizi bizimlə bölüşün!",
   "Daxil ol": "Daxil ol",
   "Elan ver": "Elan ver",
-  "mobile.title": "DOMINO'S MOBİL Tətbiqi",
+  "mobile.title": "DOMINO'S MOBİL TƏTBİQİ",
   "mobile.subtitle": "TƏTBİQLƏ TEZ VƏ PULSUZ ÇATDIRILMA",
-  "mobile.description": "Sevimli pizzanızı seçin, online sifariş edin. Bu indi Domino’s tətbiqi iıə mümkündür! Siz online olaraq öz pizzanızın inqridientlərini, xəmir tipini, çörəkləri, qəlyanaltıları, sousları və içkiləri mobil tətbiqdən seçib sifariş edə BiLƏRSiNiZ. Zəngin pizza çeşidləri və ən yaxşı dad Azərbaycanda!",
+  "mobile.description": "Sevimli pizzanızı seçin, online sifariş edin. Bu indi Domino’s tətbiqi iıə mümkündür! Siz online olaraq öz pizzanızın inqridientlərini, xəmir tipini, çörəkləri, qəlyanaltıları, sousları və içkiləri mobil tətbiqdən seçib sifariş edə bilərsiniz. Zəngin pizza çeşidləri və ən yaxşı dad Azərbaycanda!",
   "tracking.title": "İZLƏMƏ",
   "tracking.subtitle": "SİFARİŞİN İZLƏNMƏSİ BARMAĞINIZIN UCUNDADIR",
-  "tracking.description": "Bütün qeyri-müəyyənliklərdən qurtulun. indi sifarişinizin əvvəldən axıra qədər izləyin. Domino's pizzanın yeni mobil tətbiqini endirin və izləmə xidmətini əldə EDiN.",
+  "tracking.description": "Bütün qeyri-müəyyənliklərdən qurtulun. indi sifarişinizin əvvəldən axıra qədər izləyin. Domino's pizzanın yeni mobil tətbiqini endirin və izləmə xidmətini əldə edin.",
   "tracking.button": "İNDİ İZLƏYİN",
-  "rewards.title": "Hədİyyələr",
+  "rewards.title": "HƏDİYYƏLƏR",
   "rewards.subtitle": "Hər online sifarişdə xallar qazanın",
   "rewards.description": "Pizza alıcısı üçün əla təklif . Domino’s Pizza ilə “Hədiyyə xallar” qazanın və onları inanılmaz təklif və endirimlərlə əvəzləyin. Tələsin və “hədiyyə xallarını” dərhal əldə edin.",
   "rewards.button": "İNDİ SİFARİŞ VERİN",
@@ -101,6 +101,13 @@
     "dip": "Sous",
     "drink": "İçki",
     "dessert": "Şirniyyat"
-  }
-
+  },
+  "Ərik": "Ərik",
+  "Albalı": "Albalı",
+  "Multivitamin": "Multivitamin",
+  "Limon": "Limon",
+  "Manqo Ananas": "Manqo Ananas",
+  "Şaftalı": "Şaftalı",
+  "Qazsız": "Qazsız",
+  "Qazlı": "Qazlı"
 }

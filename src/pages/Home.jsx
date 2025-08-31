@@ -1,4 +1,3 @@
-import { useTranslation } from "react-i18next";
 import Mobile from "../components/Mobile";
 import Tracking from "../components/Tracking";
 import Rewards from "../components/Rewards";

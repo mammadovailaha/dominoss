@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 import Card from "../components/Card";
 const Dessert = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
 
   const images = [
     "/img/CR.png",
@@ -10,7 +10,7 @@ const Dessert = () => {
 
   ];
 const prices = [2.90, 5.50];
-  const bread = {
+  const dessert = {
     az: [
       {
         label: "Cinnamon Roll",
@@ -43,7 +43,7 @@ const prices = [2.90, 5.50];
     ],
   };
 
-  const items = bread[i18n.language] || bread.az;
+  const items = dessert[i18n.language] || dessert.az;
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {

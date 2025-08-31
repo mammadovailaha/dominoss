@@ -25,7 +25,7 @@ function Make() {
         <div className="flex justify-end align-center">
           <img src={getImageByLanguage()} className="max-w-[828px] h-[246px]" />
         </div>
-        <a className="absolute right-[70px] bottom-[-20px]">
+        <a className="absolute right-[70px] bottom-[-20px] font-[Bold]">
           <button className="flex items-center min-w-[64px] w- full cursor-pointer leading-[1.75] gap-2 px-[16px] py-[8px] text-white bg-[#D2112C] rounded-[8px]">
             <div>
               <svg

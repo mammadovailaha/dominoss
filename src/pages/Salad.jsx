@@ -2,14 +2,14 @@ import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 import Card from "../components/Card";
 const Salad = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
 
   const images = [
     "/img/TunaSalad.png",
     "/img/FetaCheeseSalad.png",
     "/img/ChickenSalad.png",
   ];
-  const bread = {
+  const salad = {
     az: [
       {
         label: "Ton balıqlı Salat",
@@ -45,7 +45,7 @@ const Salad = () => {
     ],
   };
 
-  const items = bread[i18n.language] || bread.az;
+  const items = salad[i18n.language] || salad.az;
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {

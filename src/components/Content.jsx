@@ -19,20 +19,20 @@ const Content = ({
   return (
     <>
       <div
-        className={`flex gap-[8px] flex-col font-[Bold] align-center justify-center ${width}`}
+        className={`flex gap-[8px] flex-col align-center justify-center ${width}`}
       >
-        <h5 className={`font-[500] text-[40px] leading-[48px] ${h5class}`}>
+        <h5 className={`text-[40px] leading-[48px] ${h5class}`}>
           {t(h5)}
         </h5>
         <div className="flex flex-col">
           <p
-            className={`text-[26px] leading-[79.2px] tracking-[4px] mb-[16px] ${leftclass}`}
+            className={`text-[60px] leading-[70px] tracking-[4px] mb-[16px] ${leftclass}`}
           >
             {t(left)}
           </p>
 
           {showBrush && (
-            <img src="./img/brush-splash.webp" className="w-[150px] h-[25px]" />
+            <img src="./img/brush-splash.webp" className="w-[150px] h-[40px]" />
           )}
 
           <p
