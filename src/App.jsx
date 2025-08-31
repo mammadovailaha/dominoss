@@ -36,8 +36,8 @@ function App() {
           <Route path="/drinks" element={<Drink />}/>
           <Route path="/dips" element={<Dip />}/>
           <Route path="/desserts" element={<Dessert />}/>
-          {/* <Route path="/login" element={<Login />} />
-          <Route path="/basket" element={<Basket />} /> */}
+          <Route path="/login" element={<Login />} />
+          <Route path="/basket" element={<Basket />} />
         </Route>
       </Routes>
     </Router>
